@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# run_agent.py - Run job scraper and send email alerts
+# run_agent.py - Run job scraper locally
 
 import sys
 import json
@@ -7,145 +7,119 @@ import os
 from datetime import datetime
 from scrape_greenhouse import scrape_all_greenhouse, GREENHOUSE_COMPANIES
 from scrape_lever import scrape_all_lever, LEVER_COMPANIES
-from database import filter_new_jobs, get_job_stats, load_database
+from scrape_ashby import scrape_all_ashby, ASHBY_COMPANIES
+from database import filter_new_jobs
 from notifier import send_job_alert
 
-OLD_JOBS_FILE = 'old_jobs.json'
+JOBS_FILE = 'all_jobs.json'
 
 def get_role_priority(title):
     title_lower = title.lower()
-    if any(kw in title_lower for kw in ['product manager', 'product management', 'apm', 'associate product']):
+    if any(kw in title_lower for kw in ['product manager', 'product management', 'apm']):
         return 1
-    elif any(kw in title_lower for kw in ['program manager', 'project manager', 'tpm', 'technical program']):
+    elif any(kw in title_lower for kw in ['program manager', 'project manager', 'tpm']):
         return 2
-    elif any(kw in title_lower for kw in ['data analyst', 'analytics', 'data scientist', 'business analyst']):
+    elif any(kw in title_lower for kw in ['data analyst', 'analytics', 'data scientist']):
         return 3
-    elif any(kw in title_lower for kw in ['operations', 'strategy', 'gtm', 'marketing', 'growth']):
+    elif any(kw in title_lower for kw in ['operations', 'strategy', 'gtm', 'marketing']):
         return 4
-    elif any(kw in title_lower for kw in ['research', 'ai safety', 'policy', 'trust']):
+    elif any(kw in title_lower for kw in ['research', 'ai safety', 'policy']):
         return 5
     return 6
+
+def get_role_category(title):
+    title_lower = title.lower()
+    if any(kw in title_lower for kw in ['product manager', 'product management', 'apm']):
+        return "🎯 Product Manager"
+    if any(kw in title_lower for kw in ['program manager', 'project manager', 'tpm']):
+        return "📋 Program/Project Manager"
+    if any(kw in title_lower for kw in ['data analyst', 'analytics', 'data scientist']):
+        return "📊 Data/Analytics"
+    if any(kw in title_lower for kw in ['operations', 'strategy', 'gtm', 'marketing']):
+        return "📈 Ops/GTM/Marketing"
+    if any(kw in title_lower for kw in ['research', 'ai safety', 'policy']):
+        return "🔬 Research/AI Safety"
+    if any(kw in title_lower for kw in ['solutions engineer', 'sales engineer']):
+        return "🔧 Solutions/Sales Eng"
+    if any(kw in title_lower for kw in ['software engineer', 'backend', 'frontend']):
+        return "💻 Software Engineering"
+    if any(kw in title_lower for kw in ['engineer', 'infrastructure', 'sre']):
+        return "⚙️ Other Engineering"
+    if any(kw in title_lower for kw in ['recruiter', 'hr ', 'talent']):
+        return "👥 HR/Recruiting"
+    return "📁 Other"
 
 def is_us_location(location):
     if not location:
         return False
     location_lower = location.lower().strip()
-    
-    non_us = [
-        'spain', 'poland', 'uk', 'united kingdom', 'canada', 'germany', 
-        'france', 'india', 'singapore', 'japan', 'australia', 'brazil',
-        'mexico', 'ireland', 'netherlands', 'sweden', 'israel', 'china',
-        'london', 'toronto', 'vancouver', 'berlin', 'paris', 'dublin',
-        'sydney', 'melbourne', 'bangalore', 'mumbai', 'tel aviv', 'tokyo',
-        ', uk', ', ca,', 'ontario', 'emea', 'apac', 'latam',
-    ]
+    non_us = ['spain', 'poland', 'uk', 'canada', 'germany', 'france', 'india', 
+              'singapore', 'japan', 'australia', 'london', 'toronto', 'berlin',
+              'emea', 'apac', 'latam']
     for non in non_us:
         if non in location_lower:
             return False
-    
-    us_indicators = [
-        'united states', 'usa', 'u.s.', ', us', '- us', 'remote - us',
-        'remote us', '(us)', 'remote, us', 'california', 'new york', 
-        'texas', 'washington', 'colorado', 'massachusetts', 'illinois',
-        'san francisco', 'nyc', 'seattle', 'austin', 'boston', 
-        'los angeles', 'chicago', 'denver', 'atlanta', 'miami',
-        'palo alto', 'mountain view', 'bay area',
-    ]
+    us_indicators = ['united states', 'usa', ', us', 'remote', 'california', 
+                     'new york', 'texas', 'san francisco', 'seattle', 'boston',
+                     'austin', 'denver', 'chicago', 'los angeles', 'bay area']
     for indicator in us_indicators:
         if indicator in location_lower:
             return True
     return False
 
-def load_old_jobs():
-    """Load previously seen jobs"""
-    if os.path.exists(OLD_JOBS_FILE):
+def load_existing_jobs():
+    if os.path.exists(JOBS_FILE):
         try:
-            with open(OLD_JOBS_FILE, 'r') as f:
+            with open(JOBS_FILE, 'r') as f:
                 return json.load(f)
         except:
             return []
     return []
 
-def save_old_jobs(jobs):
-    """Save jobs for next run"""
-    # Keep only essential fields to save space
-    minimal_jobs = []
-    for job in jobs:
-        minimal_jobs.append({
-            'title': job.get('title'),
-            'company': job.get('company'),
-            'location': job.get('location'),
-            'url': job.get('url'),
-            'tier': job.get('tier'),
-        })
-    with open(OLD_JOBS_FILE, 'w') as f:
-        json.dump(minimal_jobs, f)
+def save_all_jobs(jobs):
+    with open(JOBS_FILE, 'w') as f:
+        json.dump(jobs, f, indent=2, default=str)
 
-def run_and_notify(send_email=True, verbose=True):
-    """Run scraper and send email"""
-    
+def run_and_notify(send_email=True):
     print(f"\n{'='*60}")
-    print(f"🤖 Job Agent Running - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"🤖 Job Agent - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*60}\n")
     
     all_jobs = []
     
-    print(f"🌱 Scraping Greenhouse ({len(GREENHOUSE_COMPANIES)} companies)...")
-    greenhouse_jobs = scrape_all_greenhouse(verbose=False)
-    all_jobs.extend(greenhouse_jobs)
-    print(f"   Found {len(greenhouse_jobs)} jobs")
+    print(f"🌱 Greenhouse ({len(GREENHOUSE_COMPANIES)} companies)...")
+    all_jobs.extend(scrape_all_greenhouse(verbose=False))
     
-    print(f"🎯 Scraping Lever ({len(LEVER_COMPANIES)} companies)...")
-    lever_jobs = scrape_all_lever(verbose=False)
-    all_jobs.extend(lever_jobs)
-    print(f"   Found {len(lever_jobs)} jobs")
+    print(f"🎯 Lever ({len(LEVER_COMPANIES)} companies)...")
+    all_jobs.extend(scrape_all_lever(verbose=False))
     
-    # Filter
+    print(f"🔷 Ashby ({len(ASHBY_COMPANIES)} companies)...")
+    all_jobs.extend(scrape_all_ashby(verbose=False))
+    
     entry_jobs = [j for j in all_jobs if j.get('relevant')]
     us_jobs = [j for j in entry_jobs if is_us_location(j.get('location', ''))]
     
-    # Get new vs old
-    new_jobs = filter_new_jobs(us_jobs.copy())
+    existing_jobs = load_existing_jobs()
+    existing_urls = {j.get('url'): j for j in existing_jobs}
     
-    # Load previously saved old jobs
-    old_jobs = load_old_jobs()
+    new_jobs = []
+    for job in us_jobs:
+        if job.get('url') not in existing_urls:
+            job['status'] = 'New'
+            job['added_date'] = datetime.now().isoformat()
+            job['role_category'] = get_role_category(job['title'])
+            new_jobs.append(job)
     
-    print(f"\n📊 Results:")
-    print(f"   Total scraped: {len(all_jobs)}")
-    print(f"   Entry-level (≤2yr): {len(entry_jobs)}")
-    print(f"   US-based: {len(us_jobs)}")
-    print(f"   NEW jobs: {len(new_jobs)}")
-    print(f"   Previously seen: {len(old_jobs)}")
+    all_saved_jobs = existing_jobs + new_jobs
+    save_all_jobs(all_saved_jobs)
     
-    # Sort jobs
-    for job in new_jobs:
-        job['role_priority'] = get_role_priority(job['title'])
-    new_jobs.sort(key=lambda j: (j.get('tier', 3), j.get('role_priority', 6)))
+    print(f"\n📊 Results: {len(all_jobs)} scraped → {len(entry_jobs)} entry-level → {len(us_jobs)} US → {len(new_jobs)} NEW")
     
-    for job in old_jobs:
-        job['role_priority'] = get_role_priority(job['title'])
-    old_jobs.sort(key=lambda j: (j.get('tier', 3), j.get('role_priority', 6)))
+    if new_jobs and send_email:
+        new_jobs.sort(key=lambda j: (j.get('tier', 3), get_role_priority(j['title'])))
+        send_job_alert(new_jobs, [])
     
-    if new_jobs:
-        print(f"\n🆕 Top New Jobs:")
-        for job in new_jobs[:5]:
-            print(f"   • {job['title'][:40]} @ {job['company']}")
-        if len(new_jobs) > 5:
-            print(f"   ... and {len(new_jobs) - 5} more")
-    
-    # Send email
-    if send_email and (new_jobs or old_jobs):
-        print(f"\n📧 Sending email alert...")
-        send_job_alert(new_jobs, old_jobs)
-    elif not new_jobs:
-        print(f"\n😴 No new jobs since last run.")
-    
-    # Save current US jobs as "old" for next run
-    save_old_jobs(us_jobs)
-    
-    print(f"\n✅ Done!")
-    return new_jobs
+    print(f"✅ Done! Total saved: {len(all_saved_jobs)}")
 
 if __name__ == '__main__':
-    send_email = '--no-email' not in sys.argv
-    run_and_notify(send_email=send_email)
+    run_and_notify(send_email='--no-email' not in sys.argv)
