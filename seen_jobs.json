@@ -1,0 +1,2301 @@
+{
+  "jobs": {
+    "55a022c3f0218b31cd2bf8154c3b0f30": {
+      "title": "Data Scientist, Algorithms - Fulfillment",
+      "company": "Lyft",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8335715002?gh_jid=8335715002",
+      "first_seen": "2025-12-23T14:51:21.715326",
+      "tier": 1,
+      "status": "new"
+    },
+    "f0092a0ba32088ce0183a2bc7c3a646d": {
+      "title": "Data Scientist, Algorithms - Fulfillment",
+      "company": "Lyft",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8335733002?gh_jid=8335733002",
+      "first_seen": "2025-12-23T14:51:21.716375",
+      "tier": 1,
+      "status": "new"
+    },
+    "41a5282e13e2353ea655eec89148389a": {
+      "title": "iOS Engineer, Mobile Foundations",
+      "company": "Lyft",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8181338002?gh_jid=8181338002",
+      "first_seen": "2025-12-23T14:51:21.717479",
+      "tier": 1,
+      "status": "new"
+    },
+    "fdcdc0473bca0bb64ca2c01e6437b841": {
+      "title": "Policy Operations Coordinator",
+      "company": "Lyft",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8330807002?gh_jid=8330807002",
+      "first_seen": "2025-12-23T14:51:21.718072",
+      "tier": 1,
+      "status": "new"
+    },
+    "822a1e8f3d275eb543ca71d11e7639a5": {
+      "title": "Software Engineer, iOS",
+      "company": "Lyft",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8341067002?gh_jid=8341067002",
+      "first_seen": "2025-12-23T14:51:21.718661",
+      "tier": 1,
+      "status": "new"
+    },
+    "549aeeec1d6a5ac42a8a19056b449780": {
+      "title": "Software Engineer, Security",
+      "company": "Lyft",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/7806122002?gh_jid=7806122002",
+      "first_seen": "2025-12-23T14:51:21.719227",
+      "tier": 1,
+      "status": "new"
+    },
+    "87e94b1de32892972932ab8ff98ba360": {
+      "title": "123123",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4864936",
+      "first_seen": "2025-12-23T14:51:21.720046",
+      "tier": 3,
+      "status": "new"
+    },
+    "d6fc7950efb06f1b978fd4f559995264": {
+      "title": "Copy 1 of  EA Test - Most Questions",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5303307",
+      "first_seen": "2025-12-23T14:51:21.720694",
+      "tier": 3,
+      "status": "new"
+    },
+    "82f51aaea2bdc264dfe375892bc9fc4f": {
+      "title": "Copy 1 of  EA Test - Most Questions",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5051596",
+      "first_seen": "2025-12-23T14:51:21.721373",
+      "tier": 3,
+      "status": "new"
+    },
+    "0b62039bb66d9cac3a76ea913865dc4c": {
+      "title": "EA -> AC malformed questions",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4899733",
+      "first_seen": "2025-12-23T14:51:21.722066",
+      "tier": 3,
+      "status": "new"
+    },
+    "a197eccaa680df1b2c0d1bb653aeb16b": {
+      "title": "EA job not matched with AC job",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4896587",
+      "first_seen": "2025-12-23T14:51:21.722794",
+      "tier": 3,
+      "status": "new"
+    },
+    "cae4f7d948f036c0482dc3dbd8e39162": {
+      "title": "EA job With Matched AC job",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4896584",
+      "first_seen": "2025-12-23T14:51:21.723677",
+      "tier": 3,
+      "status": "new"
+    },
+    "b11c28a6fac2a8de8dd8f502478204ee": {
+      "title": "Easy Apply Test - DMA (EU)",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5601420",
+      "first_seen": "2025-12-23T14:51:21.724431",
+      "tier": 3,
+      "status": "new"
+    },
+    "07382546631911d7655d2ec5d7b8581c": {
+      "title": "Easy Apply Test - DMA (EU - 2/2024)",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5685902",
+      "first_seen": "2025-12-23T14:51:21.725141",
+      "tier": 3,
+      "status": "new"
+    },
+    "db5bcc0a963707a12b14001266c8db30": {
+      "title": "EA Test JC - Most Questions",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5051579",
+      "first_seen": "2025-12-23T14:51:21.726130",
+      "tier": 3,
+      "status": "new"
+    },
+    "8622153b8797d64788d454e0f4ca619e": {
+      "title": "EA Test - Most Questions",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5051577",
+      "first_seen": "2025-12-23T14:51:21.727260",
+      "tier": 3,
+      "status": "new"
+    },
+    "867e8cb14f8aba4a8b69610cffd2c398": {
+      "title": "Implementation Consultant",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/1714865",
+      "first_seen": "2025-12-23T14:51:21.728127",
+      "tier": 3,
+      "status": "new"
+    },
+    "bfa38b81fc4a705ba1ab966371449cdb": {
+      "title": "Seeker EA Test Job",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4869052",
+      "first_seen": "2025-12-23T14:51:21.729119",
+      "tier": 3,
+      "status": "new"
+    },
+    "b556bf2951a94201d97469b5666e3dab": {
+      "title": "Seeker Shine EA Test Job",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4865184",
+      "first_seen": "2025-12-23T14:51:21.730016",
+      "tier": 3,
+      "status": "new"
+    },
+    "eb7acbe1d4051ff501253fd9a37b742a": {
+      "title": "Seeker Shine EA Test Job",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4865183",
+      "first_seen": "2025-12-23T14:51:21.730827",
+      "tier": 3,
+      "status": "new"
+    },
+    "f71009e448bf348b721e633832ef615b": {
+      "title": "Seeker Shine EA Test Job_4",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4899882",
+      "first_seen": "2025-12-23T14:51:21.731823",
+      "tier": 3,
+      "status": "new"
+    },
+    "89639079a596c0f6d611d19932297438": {
+      "title": "Test 123",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4899599",
+      "first_seen": "2025-12-23T14:51:21.732771",
+      "tier": 3,
+      "status": "new"
+    },
+    "833b0b23b6c33963e579021519cc20ea": {
+      "title": "Test Devloper Job",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5446569",
+      "first_seen": "2025-12-23T14:51:21.733873",
+      "tier": 3,
+      "status": "new"
+    },
+    "6d5e71504b2a300dfd27864daafbe995": {
+      "title": "Test EA ->AC Webhook failure",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4899719",
+      "first_seen": "2025-12-23T14:51:21.734996",
+      "tier": 3,
+      "status": "new"
+    },
+    "aa86698049e8d5123b7d19f6984c4e7d": {
+      "title": "Test EA Education Required",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4867814",
+      "first_seen": "2025-12-23T14:51:21.735872",
+      "tier": 3,
+      "status": "new"
+    },
+    "0ccec4ddf4cf02d2f6fd4716b3352eb3": {
+      "title": "Test EA SQC",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4868001",
+      "first_seen": "2025-12-23T14:51:21.736784",
+      "tier": 3,
+      "status": "new"
+    },
+    "b0d18f00e204434c62cbdf1c060bf9c9": {
+      "title": "Test Email Confirmation Success",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4944739",
+      "first_seen": "2025-12-23T14:51:21.737702",
+      "tier": 3,
+      "status": "new"
+    },
+    "fd60aa5529a59d3d55bfd6de2d5dacb4": {
+      "title": "Test job 123",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4508164",
+      "first_seen": "2025-12-23T14:51:21.738645",
+      "tier": 3,
+      "status": "new"
+    },
+    "7485cd4b9bf68ad0e8fdca01588232d4": {
+      "title": "Test Job - Location",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/5448351",
+      "first_seen": "2025-12-23T14:51:21.739631",
+      "tier": 3,
+      "status": "new"
+    },
+    "19d88363fc7e352c244bdeab3fef8f9f": {
+      "title": "Test New EA jobs",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4865105",
+      "first_seen": "2025-12-23T14:51:21.740666",
+      "tier": 3,
+      "status": "new"
+    },
+    "137482123fe94226417b01b5d51e3fcc": {
+      "title": "Unicorn job post title",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/132944",
+      "first_seen": "2025-12-23T14:51:21.741529",
+      "tier": 3,
+      "status": "new"
+    },
+    "1518909da5aeebafdc1f1128b40b23e6": {
+      "title": "Unicorn job post title",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/189258",
+      "first_seen": "2025-12-23T14:51:21.742361",
+      "tier": 3,
+      "status": "new"
+    },
+    "644dae235bc70bbf932570ab2a3a35df": {
+      "title": "UX research",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/4864870",
+      "first_seen": "2025-12-23T14:51:21.743195",
+      "tier": 3,
+      "status": "new"
+    },
+    "5793217339bb1cc54a7e1ee6961ab406": {
+      "title": "Wei's test project 123",
+      "company": "LinkedIn",
+      "url": "https://job-boards.greenhouse.io/linkedin/jobs/7239312",
+      "first_seen": "2025-12-23T14:51:21.744041",
+      "tier": 3,
+      "status": "new"
+    },
+    "1801f950585d83d03ca9b301461695dd": {
+      "title": "Commercial Counsel",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4900286008",
+      "first_seen": "2025-12-23T14:51:21.745222",
+      "tier": 1,
+      "status": "new"
+    },
+    "b094d5f398d014c3f90abbb715171656": {
+      "title": "Cross-functional Prompt Engineer",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4988308008",
+      "first_seen": "2025-12-23T14:51:21.746238",
+      "tier": 1,
+      "status": "new"
+    },
+    "0a6faee687cc5834545590abe83bb776": {
+      "title": "Engineering Manager, Human Data Interfaces",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5018765008",
+      "first_seen": "2025-12-23T14:51:21.747342",
+      "tier": 1,
+      "status": "new"
+    },
+    "f68e3d4d01eccd846925144b13d68ac3": {
+      "title": "Engineering Manager, Inference",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4741102008",
+      "first_seen": "2025-12-23T14:51:21.748582",
+      "tier": 1,
+      "status": "new"
+    },
+    "069def2652fabafdc998bcedba242dae": {
+      "title": "Engineering Manager, ML Acceleration",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4741104008",
+      "first_seen": "2025-12-23T14:51:21.749989",
+      "tier": 1,
+      "status": "new"
+    },
+    "082c9029cdedf3abdd0fcfe2c79c21d0": {
+      "title": " [Expression of Interest] Research Manager, Interpretability",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4980436008",
+      "first_seen": "2025-12-23T14:51:21.751007",
+      "tier": 1,
+      "status": "new"
+    },
+    "ea2fe4a09331afe53cfe75c3c54198c0": {
+      "title": "[Expression of Interest] Research Scientist/Engineer, Alignment Finetuning",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4520279008",
+      "first_seen": "2025-12-23T14:51:21.752180",
+      "tier": 1,
+      "status": "new"
+    },
+    "9a2f211ab54eb924300edcbadfb3d3fc": {
+      "title": "[Expression of Interest] Research Scientist/Engineer, Honesty",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4532887008",
+      "first_seen": "2025-12-23T14:51:21.753359",
+      "tier": 1,
+      "status": "new"
+    },
+    "e8c640a6f17a0b7d592e80b7013bf87f": {
+      "title": "Finance AI Engineer",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5018066008",
+      "first_seen": "2025-12-23T14:51:21.754595",
+      "tier": 1,
+      "status": "new"
+    },
+    "a1166feebfdf5699d28455447c0a78a3": {
+      "title": "Machine Learning Systems Engineer, Research Tools",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4952079008",
+      "first_seen": "2025-12-23T14:51:21.755698",
+      "tier": 1,
+      "status": "new"
+    },
+    "e734e530ec6d6aa9af74ae62bc503041": {
+      "title": "Performance Engineer",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4020350008",
+      "first_seen": "2025-12-23T14:51:21.756943",
+      "tier": 1,
+      "status": "new"
+    },
+    "c5f386c44edc919ef92c19083bd15865": {
+      "title": "Performance Engineer, GPU",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926227008",
+      "first_seen": "2025-12-23T14:51:21.758207",
+      "tier": 1,
+      "status": "new"
+    },
+    "832450a6e06385844e062cc928f061cf": {
+      "title": "Product Designer, Claude Code ",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025976008",
+      "first_seen": "2025-12-23T14:51:21.759428",
+      "tier": 1,
+      "status": "new"
+    },
+    "2b7bd4ecd31814b8284638be1e9bebfc": {
+      "title": "Product Support Specialist",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4979585008",
+      "first_seen": "2025-12-23T14:51:21.760796",
+      "tier": 1,
+      "status": "new"
+    },
+    "15c41769c1cadff8dbe20f0a489161b0": {
+      "title": "Recruiting Coordinator [contract]",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5041174008",
+      "first_seen": "2025-12-23T14:51:21.761831",
+      "tier": 1,
+      "status": "new"
+    },
+    "3492770a923b0219dbc648e767790508": {
+      "title": "Research Engineer \u2013 Cybersecurity RL",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
+      "first_seen": "2025-12-23T14:51:21.763321",
+      "tier": 1,
+      "status": "new"
+    },
+    "485ca9f7928efec034f8999f4b89473e": {
+      "title": "Research Engineer, Data Ingestion",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025065008",
+      "first_seen": "2025-12-23T14:51:21.764450",
+      "tier": 1,
+      "status": "new"
+    },
+    "ccd12614ce281755a0668ffcfd6ed802": {
+      "title": "Research Engineer, Machine Learning (Horizons) ",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613568008",
+      "first_seen": "2025-12-23T14:51:21.765814",
+      "tier": 1,
+      "status": "new"
+    },
+    "bf1a1a288ea14870bcbca7590dcf3519": {
+      "title": "Research Engineer, Model Evaluations",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4990535008",
+      "first_seen": "2025-12-23T14:51:21.766926",
+      "tier": 1,
+      "status": "new"
+    },
+    "6f17d2a3cb6246d0f200f709a698fa46": {
+      "title": "Research Engineer, Pre-training",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4616971008",
+      "first_seen": "2025-12-23T14:51:21.767960",
+      "tier": 1,
+      "status": "new"
+    },
+    "2678e6ad8d2d2b105e04619e00859d40": {
+      "title": "Research Engineer, Pretraining Scaling",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4938432008",
+      "first_seen": "2025-12-23T14:51:21.769048",
+      "tier": 1,
+      "status": "new"
+    },
+    "9936bb4892183f9c3b05c2a3c31058d3": {
+      "title": "Research Engineer, Production Model Post Training",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613592008",
+      "first_seen": "2025-12-23T14:51:21.770344",
+      "tier": 1,
+      "status": "new"
+    },
+    "b0cf33dd72ef078fd3f593b3e8be8bbe": {
+      "title": " Research Engineer / Research Scientist, Tokens",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4951814008",
+      "first_seen": "2025-12-23T14:51:21.771723",
+      "tier": 1,
+      "status": "new"
+    },
+    "a437ecf681412c66619943342b4271d2": {
+      "title": "Research Engineer, Reward Models Platform",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5024831008",
+      "first_seen": "2025-12-23T14:51:21.773455",
+      "tier": 1,
+      "status": "new"
+    },
+    "50a861da2fdbb9d1cf2df56d0485256f": {
+      "title": "Research Engineer, Reward Models Training",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613599008",
+      "first_seen": "2025-12-23T14:51:21.774658",
+      "tier": 1,
+      "status": "new"
+    },
+    "5708a9b7408294a4da5feab480fec4a5": {
+      "title": "Research Engineer / Scientist, Alignment Science",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4631822008",
+      "first_seen": "2025-12-23T14:51:21.775830",
+      "tier": 1,
+      "status": "new"
+    },
+    "211d495d0c22ef24ccf28ef763af4f5a": {
+      "title": "Research Scientist, Interpretability",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4980427008",
+      "first_seen": "2025-12-23T14:51:21.777012",
+      "tier": 1,
+      "status": "new"
+    },
+    "fe398b92b6253aa57070682e0806678d": {
+      "title": "Software Engineer, Claude Code",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4816199008",
+      "first_seen": "2025-12-23T14:51:21.778124",
+      "tier": 1,
+      "status": "new"
+    },
+    "b6ea531a5ef9aec31460eaf468f0218f": {
+      "title": "Software Engineer, Growth",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5042025008",
+      "first_seen": "2025-12-23T14:51:21.779265",
+      "tier": 1,
+      "status": "new"
+    },
+    "3a4ae94bbdedafe74a284eb522446eec": {
+      "title": "Software Engineer, Sandboxing (Systems)",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025591008",
+      "first_seen": "2025-12-23T14:51:21.780490",
+      "tier": 1,
+      "status": "new"
+    },
+    "a52c8a611d5077a5f43147bc8afea5b2": {
+      "title": "TPU Kernel Engineer",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4720576008",
+      "first_seen": "2025-12-23T14:51:21.781728",
+      "tier": 1,
+      "status": "new"
+    },
+    "139f01daa58bf8cac4090d2f08e4de78": {
+      "title": "Machine Learning Software Engineer, GeminiApp Agents and Tool Use ",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7486590",
+      "first_seen": "2025-12-23T14:51:21.783076",
+      "tier": 1,
+      "status": "new"
+    },
+    "aaeb16c77141072874e0e8e82700cf66": {
+      "title": "Nuclear Engineer (2 year Fixed Term Contract)",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7339193",
+      "first_seen": "2025-12-23T14:51:21.784520",
+      "tier": 1,
+      "status": "new"
+    },
+    "fc7c6930c6934912a215f8c6f1d3f8f0": {
+      "title": "Research Engineer, Agentic Safety",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7374585",
+      "first_seen": "2025-12-23T14:51:21.785804",
+      "tier": 1,
+      "status": "new"
+    },
+    "14addee060c4cd9286e497b6f445d443": {
+      "title": "Research Engineer, AI for Weather and Energy",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/6604209",
+      "first_seen": "2025-12-23T14:51:21.787082",
+      "tier": 1,
+      "status": "new"
+    },
+    "096f90b7d2860b26961a85401399b781": {
+      "title": "Research Engineer, CBRN",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7341408",
+      "first_seen": "2025-12-23T14:51:21.788497",
+      "tier": 1,
+      "status": "new"
+    },
+    "397fda57f5ed408a0a60e8c88075e25a": {
+      "title": "Research Engineer, CBRN",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7339898",
+      "first_seen": "2025-12-23T14:51:21.790161",
+      "tier": 1,
+      "status": "new"
+    },
+    "04792b257a917b206ae964b5a6c2840a": {
+      "title": "Research Engineer, Developer Experience, Gemini Robotics",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7411063",
+      "first_seen": "2025-12-23T14:51:21.791692",
+      "tier": 1,
+      "status": "new"
+    },
+    "9311c0ff588c093fdb44f623898d1283": {
+      "title": "Research Engineer, Frontier Safety Risk Assessment",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7493360",
+      "first_seen": "2025-12-23T14:51:21.793072",
+      "tier": 1,
+      "status": "new"
+    },
+    "0a9fb7843b1287ccabf156ca39c4a098": {
+      "title": "Research Engineer (or Scientist), Speech and Language ",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7411265",
+      "first_seen": "2025-12-23T14:51:21.794457",
+      "tier": 1,
+      "status": "new"
+    },
+    "3e6695db7f695b22d240949f7bd48996": {
+      "title": "Research Engineer, Post-Training for Code Security Analysis",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7397549",
+      "first_seen": "2025-12-23T14:51:21.795799",
+      "tier": 1,
+      "status": "new"
+    },
+    "ed77d83a6ccbe2d3aa8e11a947ef28d7": {
+      "title": "Research Scientist, Agentic Safety",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7334511",
+      "first_seen": "2025-12-23T14:51:21.797117",
+      "tier": 1,
+      "status": "new"
+    },
+    "36bb9897a00383e0c2358125e30aee07": {
+      "title": "Research Scientist/Engineer, Model Threat Defense",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7392971",
+      "first_seen": "2025-12-23T14:51:21.798460",
+      "tier": 1,
+      "status": "new"
+    },
+    "70dc3cc97a7ab60f110866353fdac48b": {
+      "title": "Research Scientist/Engineer, Security Classifier",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7392952",
+      "first_seen": "2025-12-23T14:51:21.799815",
+      "tier": 1,
+      "status": "new"
+    },
+    "f4307b2ca8f4e59641f9a58252762c33": {
+      "title": "Research Scientist, Gemini Information Tasks",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7266721",
+      "first_seen": "2025-12-23T14:51:21.801198",
+      "tier": 1,
+      "status": "new"
+    },
+    "df57eabf87b49b737565892b60d8c4b5": {
+      "title": "Research Scientist/Research Engineer, AI for Secure Code",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7392747",
+      "first_seen": "2025-12-23T14:51:21.802558",
+      "tier": 1,
+      "status": "new"
+    },
+    "9a6d37bc86dc045ca73b26e3998563d7": {
+      "title": "Research Scientist, Robotics",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7102795",
+      "first_seen": "2025-12-23T14:51:21.803948",
+      "tier": 1,
+      "status": "new"
+    },
+    "3401fccc4b15a30ad4a497f1255e75cd": {
+      "title": "Software Engineer - Data Engineering, Robotics",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7257291",
+      "first_seen": "2025-12-23T14:51:21.805469",
+      "tier": 1,
+      "status": "new"
+    },
+    "d71adf5d60e99ff1180a5fc4b1e3a8b9": {
+      "title": "Software Engineer, Gemini Data Tooling ",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7309262",
+      "first_seen": "2025-12-23T14:51:21.807040",
+      "tier": 1,
+      "status": "new"
+    },
+    "d812258b374b1f8daf77b1989c7d3d8c": {
+      "title": "Software Engineer, Numerics ",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7389626",
+      "first_seen": "2025-12-23T14:51:21.808740",
+      "tier": 1,
+      "status": "new"
+    },
+    "89c6587c7f763024c8e1a8647ba01813": {
+      "title": "Talent Acquisition Specialist, G&A Functions",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7405310",
+      "first_seen": "2025-12-23T14:51:21.810259",
+      "tier": 1,
+      "status": "new"
+    },
+    "72f5ea84444ac7d98f49366c7493d9c8": {
+      "title": "Talent Operations Associate (12 Month Fixed Term Contract)",
+      "company": "DeepMind",
+      "url": "https://job-boards.greenhouse.io/deepmind/jobs/7434832",
+      "first_seen": "2025-12-23T14:51:21.811766",
+      "tier": 1,
+      "status": "new"
+    },
+    "ed4e9f2d0aebaffbfdbe50500241de6d": {
+      "title": "AI Research Engineer, Enterprise Evaluations",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4629589005",
+      "first_seen": "2025-12-23T14:51:21.813343",
+      "tier": 1,
+      "status": "new"
+    },
+    "20ed00f8c91cbdc6cb4b3ee575e1ae14": {
+      "title": "AI Strategy Consultant, Frontier Tech",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4472223005",
+      "first_seen": "2025-12-23T14:51:21.814844",
+      "tier": 1,
+      "status": "new"
+    },
+    "b30e5c1b312ff0ed2094f99f09916de1": {
+      "title": "Applied AI Engineer, Enterprise GenAI",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4514173005",
+      "first_seen": "2025-12-23T14:51:21.816501",
+      "tier": 1,
+      "status": "new"
+    },
+    "2c551d10bb78c3665296c1713f97fc67": {
+      "title": "Forward Deployed Engineer, GenAI ",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593571005",
+      "first_seen": "2025-12-23T14:51:21.818013",
+      "tier": 1,
+      "status": "new"
+    },
+    "5ad8adeb60214acaa7af9de94391b841": {
+      "title": "IT Support Engineer",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4633127005",
+      "first_seen": "2025-12-23T14:51:21.819588",
+      "tier": 1,
+      "status": "new"
+    },
+    "49b621eb84b291819eab6e6288f5d23d": {
+      "title": "Machine Learning Research Scientist/ Engineer, Agents",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4488520005",
+      "first_seen": "2025-12-23T14:51:21.821099",
+      "tier": 1,
+      "status": "new"
+    },
+    "5521d45641bd930080b3d709a1da74cf": {
+      "title": "Machine Learning Research Scientist / Engineer, Reasoning",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605596005",
+      "first_seen": "2025-12-23T14:51:21.822712",
+      "tier": 1,
+      "status": "new"
+    },
+    "d3a4e15d1e0de486615de1083be8cf96": {
+      "title": "Machine Learning Research Scientist / Research Engineer, Post-Training",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4528009005",
+      "first_seen": "2025-12-23T14:51:21.824398",
+      "tier": 1,
+      "status": "new"
+    },
+    "0cec91b6ffd5ea158a7a4e54d1211f66": {
+      "title": "ML Research Engineer, ML Systems",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4534631005",
+      "first_seen": "2025-12-23T14:51:21.826068",
+      "tier": 1,
+      "status": "new"
+    },
+    "f968de28323bb2b3f2d1e485c34ff3a1": {
+      "title": "Security Engineer, Infrastructure & Security",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4552027005",
+      "first_seen": "2025-12-23T14:51:21.827680",
+      "tier": 1,
+      "status": "new"
+    },
+    "6b781cf4beed6d0912147a5c4ae94f5e": {
+      "title": "Software Engineer, Full Stack \u2013 Scale GP",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4637485005",
+      "first_seen": "2025-12-23T14:51:21.829417",
+      "tier": 1,
+      "status": "new"
+    },
+    "5303a697f95e05004b61b68784fa2241": {
+      "title": "Software Engineer - New Grad",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005",
+      "first_seen": "2025-12-23T14:51:21.831042",
+      "tier": 1,
+      "status": "new"
+    },
+    "776b0f88b1ddd6f495750f7a73e4cf9e": {
+      "title": "Solutions Engineer, Enterprise",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005",
+      "first_seen": "2025-12-23T14:51:21.833725",
+      "tier": 1,
+      "status": "new"
+    },
+    "1786c4edb059c5a0a3b72e2d6dd300d1": {
+      "title": "Visiting Faculty",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4623605005",
+      "first_seen": "2025-12-23T14:51:21.835591",
+      "tier": 1,
+      "status": "new"
+    },
+    "b1c0f81a02164006e78365e6bff9de44": {
+      "title": "Visiting Researcher",
+      "company": "Scale AI",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4623642005",
+      "first_seen": "2025-12-23T14:51:21.837426",
+      "tier": 1,
+      "status": "new"
+    },
+    "522db295c35bb2c7610ab0d702e7408c": {
+      "title": "Corporate Strategy",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=6696826",
+      "first_seen": "2025-12-23T14:51:21.839183",
+      "tier": 1,
+      "status": "new"
+    },
+    "840ace2f59e29eee343cb6f934f65fd0": {
+      "title": "Finance & Strategy Analyst Rotational Program ",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=7409482",
+      "first_seen": "2025-12-23T14:51:21.840904",
+      "tier": 1,
+      "status": "new"
+    },
+    "4e33b5c3cb1522941725be1084982b6d": {
+      "title": "Manager, Sales Development",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=7443750",
+      "first_seen": "2025-12-23T14:51:21.842718",
+      "tier": 1,
+      "status": "new"
+    },
+    "f2d1444ebcac0dcb713c977776178de7": {
+      "title": "PhD Machine Learning Engineer, New Grad",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=7216668",
+      "first_seen": "2025-12-23T14:51:21.844588",
+      "tier": 1,
+      "status": "new"
+    },
+    "1e75b8ea8a1356783e2b6d08bd427f26": {
+      "title": "Services Consultant",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360314",
+      "first_seen": "2025-12-23T14:51:21.846398",
+      "tier": 1,
+      "status": "new"
+    },
+    "91d3746a076645b151ebcc54d63a15d0": {
+      "title": "Software Engineer, New Grad",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210112",
+      "first_seen": "2025-12-23T14:51:21.848181",
+      "tier": 1,
+      "status": "new"
+    },
+    "6af7bf5e0e10233479163a9e67acc959": {
+      "title": "Associate Technical Consultant",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8316337002?gh_jid=8316337002",
+      "first_seen": "2025-12-23T14:51:21.849721",
+      "tier": 1,
+      "status": "new"
+    },
+    "89aaacd9776a2be26325e825051375dd": {
+      "title": "Associate Technical Consultant",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8316335002?gh_jid=8316335002",
+      "first_seen": "2025-12-23T14:51:21.851346",
+      "tier": 1,
+      "status": "new"
+    },
+    "8692747694cd5f5201abce81240e4644": {
+      "title": "Associate Technical Consultant",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8316344002?gh_jid=8316344002",
+      "first_seen": "2025-12-23T14:51:21.852953",
+      "tier": 1,
+      "status": "new"
+    },
+    "632698029747ea4a2850e9ae53e3f173": {
+      "title": "Associate Technical Consultant",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8316338002?gh_jid=8316338002",
+      "first_seen": "2025-12-23T14:51:21.854883",
+      "tier": 1,
+      "status": "new"
+    },
+    "1e5b9205b6c1e43316b07e989a05fc45": {
+      "title": "Financial Crimes Investigator",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8321923002?gh_jid=8321923002",
+      "first_seen": "2025-12-23T14:51:21.856757",
+      "tier": 1,
+      "status": "new"
+    },
+    "a264e03b2a41696d5de4ed00c84cf3a7": {
+      "title": "Financial Crimes Investigator",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8321930002?gh_jid=8321930002",
+      "first_seen": "2025-12-23T14:51:21.858728",
+      "tier": 1,
+      "status": "new"
+    },
+    "a8826571e203dfa12c1e8106a19394eb": {
+      "title": "Financial Crimes Investigator",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8321864002?gh_jid=8321864002",
+      "first_seen": "2025-12-23T14:51:21.860751",
+      "tier": 1,
+      "status": "new"
+    },
+    "ce86c3cd88b1437aea36b661dd046a51": {
+      "title": "Financial Crimes Investigator",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8321921002?gh_jid=8321921002",
+      "first_seen": "2025-12-23T14:51:21.862671",
+      "tier": 1,
+      "status": "new"
+    },
+    "4398b10b49693a29d3d021b2a68e4a98": {
+      "title": "Manager, Sales Development",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/7881519002?gh_jid=7881519002",
+      "first_seen": "2025-12-23T14:51:21.864655",
+      "tier": 1,
+      "status": "new"
+    },
+    "f5ed66975ed140d327fd3a4ef9f8691d": {
+      "title": "Manager, Sales Development",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8324887002?gh_jid=8324887002",
+      "first_seen": "2025-12-23T14:51:21.866652",
+      "tier": 1,
+      "status": "new"
+    },
+    "a5188dbf22b6b7fd48f46e1acc482d59": {
+      "title": "Manager, Sales Development",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/7882861002?gh_jid=7882861002",
+      "first_seen": "2025-12-23T14:51:21.868550",
+      "tier": 1,
+      "status": "new"
+    },
+    "16cd38e97f6dd89c177dc530be99afb8": {
+      "title": "Recruiting Coordinator (12-month Contract)",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8230853002?gh_jid=8230853002",
+      "first_seen": "2025-12-23T14:51:21.870626",
+      "tier": 1,
+      "status": "new"
+    },
+    "e4d2ddc40309db4c42b74a16236d1e2e": {
+      "title": "Recruiting Coordinator (12-month Contract)",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8000198002?gh_jid=8000198002",
+      "first_seen": "2025-12-23T14:51:21.872359",
+      "tier": 1,
+      "status": "new"
+    },
+    "fe17931f3bbeafe05b096fc0d05b59cc": {
+      "title": "Sales Recruiter (12-month contract)",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8075296002?gh_jid=8075296002",
+      "first_seen": "2025-12-23T14:51:21.874140",
+      "tier": 1,
+      "status": "new"
+    },
+    "4d4e85dbdb5053a01175d89b33346e77": {
+      "title": "Sales Recruiter (12-month contract)",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8073319002?gh_jid=8073319002",
+      "first_seen": "2025-12-23T14:51:21.875738",
+      "tier": 1,
+      "status": "new"
+    },
+    "f55b58acf3b1336f8bfa90e342509873": {
+      "title": "Sales Recruiter (12-month contract)",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8093381002?gh_jid=8093381002",
+      "first_seen": "2025-12-23T14:51:21.877356",
+      "tier": 1,
+      "status": "new"
+    },
+    "230b450d57acf8ff1f7048a5cf8720c7": {
+      "title": "Support Specialist I (Remote)",
+      "company": "Brex",
+      "url": "https://www.brex.com/careers/8322493002?gh_jid=8322493002",
+      "first_seen": "2025-12-23T14:51:21.878930",
+      "tier": 1,
+      "status": "new"
+    },
+    "98b36824ee98241e109118149708f4aa": {
+      "title": "Associate Manager, Family Office Security",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7100421?gh_jid=7100421",
+      "first_seen": "2025-12-23T14:51:21.880568",
+      "tier": 1,
+      "status": "new"
+    },
+    "ef524eede391ecc1c2fb98b4915ec521": {
+      "title": "Associate Manager, Residential Security",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7217423?gh_jid=7217423",
+      "first_seen": "2025-12-23T14:51:21.882021",
+      "tier": 1,
+      "status": "new"
+    },
+    "41ff6f6eb02710667a833673b78f8360": {
+      "title": "Data Scientist II - Product",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/5090295?gh_jid=5090295",
+      "first_seen": "2025-12-23T14:51:21.883675",
+      "tier": 1,
+      "status": "new"
+    },
+    "0bb4a78013e8fd5c16c3498e9e3f8912": {
+      "title": "Product Manager II - Core Infrastructure",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/5957003?gh_jid=5957003",
+      "first_seen": "2025-12-23T14:51:21.885426",
+      "tier": 1,
+      "status": "new"
+    },
+    "166e94b7967330c0be782866aad75292": {
+      "title": "Product Manager I - Institutional Staking",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7463201?gh_jid=7463201",
+      "first_seen": "2025-12-23T14:51:21.887023",
+      "tier": 1,
+      "status": "new"
+    },
+    "2d88f0e33ec23bfe76e05e93de64fb07": {
+      "title": " Site Reliability Engineer - Platform",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6367696?gh_jid=6367696",
+      "first_seen": "2025-12-23T14:51:21.888742",
+      "tier": 1,
+      "status": "new"
+    },
+    "13578083d3e20802183dbbeb8727b830": {
+      "title": "Software Engineer, Backend - AI Tools DevX",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7075311?gh_jid=7075311",
+      "first_seen": "2025-12-23T14:51:21.890323",
+      "tier": 1,
+      "status": "new"
+    },
+    "7e0912c446d202b0b13e783480511b70": {
+      "title": "Software Engineer, Backend - Blockchain Platform ",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7059317?gh_jid=7059317",
+      "first_seen": "2025-12-23T14:51:21.891988",
+      "tier": 1,
+      "status": "new"
+    },
+    "eff6bab589858ec6305c773e704c1cde": {
+      "title": "Software Engineer, Backend - Blockchain Platform (Blockchain Enablement)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7233872?gh_jid=7233872",
+      "first_seen": "2025-12-23T14:51:21.893870",
+      "tier": 1,
+      "status": "new"
+    },
+    "71d5439e14715ff75fb05fcbe3f99b10": {
+      "title": "Software Engineer, Backend - Blockchain Platform (Blockchain Nodes)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7059314?gh_jid=7059314",
+      "first_seen": "2025-12-23T14:51:21.895431",
+      "tier": 1,
+      "status": "new"
+    },
+    "86d443b63c247b883f49ce86311ece26": {
+      "title": "Software Engineer, Backend - Blockchain Platform (Staking Data)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7337062?gh_jid=7337062",
+      "first_seen": "2025-12-23T14:51:21.897158",
+      "tier": 1,
+      "status": "new"
+    },
+    "ea8b465a7c0c8488bf14a04f404f9661": {
+      "title": "Software Engineer, Backend - Blockchain Platform (Wallets)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7326905?gh_jid=7326905",
+      "first_seen": "2025-12-23T14:51:21.898840",
+      "tier": 1,
+      "status": "new"
+    },
+    "dfdd29d8a551c9c1a7edc35274c7cfb3": {
+      "title": "Software Engineer, Backend  (Consumer - Coinbase Card)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6535287?gh_jid=6535287",
+      "first_seen": "2025-12-23T14:51:21.900450",
+      "tier": 1,
+      "status": "new"
+    },
+    "0bf7382d25c8db2efb8b7075edeb70c3": {
+      "title": "Software Engineer, Backend (Consumer - Coinbase One)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7135188?gh_jid=7135188",
+      "first_seen": "2025-12-23T14:51:21.902175",
+      "tier": 1,
+      "status": "new"
+    },
+    "1debe4db449e43284988f682b641efc2": {
+      "title": "Software Engineer, Backend  (Consumer - Growth)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6650914?gh_jid=6650914",
+      "first_seen": "2025-12-23T14:51:21.904142",
+      "tier": 1,
+      "status": "new"
+    },
+    "5e65a999e3040a82989b0c81075ae331": {
+      "title": "Software Engineer, Backend (Consumer - Stablecoin)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/5948501?gh_jid=5948501",
+      "first_seen": "2025-12-23T14:51:21.905944",
+      "tier": 1,
+      "status": "new"
+    },
+    "a9a9e3f9f28c74beb906fbfc20577308": {
+      "title": "Software Engineer, Backend  (Consumer - Trading)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6812261?gh_jid=6812261",
+      "first_seen": "2025-12-23T14:51:21.907752",
+      "tier": 1,
+      "status": "new"
+    },
+    "7a0146dcc8f4b22e5377feb023c89ef6": {
+      "title": "Software Engineer, Backend - Financial Hub",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7009446?gh_jid=7009446",
+      "first_seen": "2025-12-23T14:51:21.909539",
+      "tier": 1,
+      "status": "new"
+    },
+    "77fb677a08e66ada9d40bd1610aaed40": {
+      "title": "Software Engineer, Backend (Platform - Core Automation)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7364902?gh_jid=7364902",
+      "first_seen": "2025-12-23T14:51:21.911256",
+      "tier": 1,
+      "status": "new"
+    },
+    "7dde55f746bf68cbe4232a498b3e0e5c": {
+      "title": "Software Engineer, Blockchain Platform (Staking Validators)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7114605?gh_jid=7114605",
+      "first_seen": "2025-12-23T14:51:21.913050",
+      "tier": 1,
+      "status": "new"
+    },
+    "817adf8caf566ba204176b30662ee4aa": {
+      "title": "Software Engineer, Data Platform",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7392802?gh_jid=7392802",
+      "first_seen": "2025-12-23T14:51:21.914834",
+      "tier": 1,
+      "status": "new"
+    },
+    "d6b3cc2c53bbfa99ddfc15aecae6b604": {
+      "title": "Software Engineer, Frontend (Consumer - Coinbase One)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7135192?gh_jid=7135192",
+      "first_seen": "2025-12-23T14:51:21.916670",
+      "tier": 1,
+      "status": "new"
+    },
+    "321d474af2c272b209edbc110b469942": {
+      "title": "Software Engineer, Frontend (Consumer - Trading)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6821664?gh_jid=6821664",
+      "first_seen": "2025-12-23T14:51:21.918541",
+      "tier": 1,
+      "status": "new"
+    },
+    "62260a3cc3fde50b9d8ed435d10017de": {
+      "title": "Software Engineer, Frontend (Consumer - Trust and Loyalty)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/5948954?gh_jid=5948954",
+      "first_seen": "2025-12-23T14:51:21.920351",
+      "tier": 1,
+      "status": "new"
+    },
+    "d44b103d71c04db16f161814764f653c": {
+      "title": "Software Engineer, Frontend - Developer Experience",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7075489?gh_jid=7075489",
+      "first_seen": "2025-12-23T14:51:21.922079",
+      "tier": 1,
+      "status": "new"
+    },
+    "3bcb102d468d7b4d40d0ecf84e690997": {
+      "title": "Software Engineer, Frontend - Risk Platform ",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6946930?gh_jid=6946930",
+      "first_seen": "2025-12-23T14:51:21.923940",
+      "tier": 1,
+      "status": "new"
+    },
+    "0b8b75a39bd82608c6fce277e80c4f79": {
+      "title": "Software Engineer, Frontend - Risk Platform: EVENT",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/7378510?gh_jid=7378510",
+      "first_seen": "2025-12-23T14:51:21.925977",
+      "tier": 1,
+      "status": "new"
+    },
+    "edc05c802e4131e6a7eba3015be94f32": {
+      "title": "Software Engineer, Full Stack (EAA)",
+      "company": "Coinbase",
+      "url": "https://www.coinbase.com/careers/positions/6652031?gh_jid=6652031",
+      "first_seen": "2025-12-23T14:51:21.927959",
+      "tier": 1,
+      "status": "new"
+    },
+    "92e448ac5cd12463e05f1b6e65f1d94e": {
+      "title": "Android Engineer",
+      "company": "Robinhood",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&gh_jid=6669758",
+      "first_seen": "2025-12-23T14:51:21.929834",
+      "tier": 1,
+      "status": "new"
+    },
+    "58e0a4bda62a105faa696a673951a384": {
+      "title": "CX Agent, Money",
+      "company": "Robinhood",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7335713?t=gh_src=&gh_jid=7335713",
+      "first_seen": "2025-12-23T14:51:21.931791",
+      "tier": 1,
+      "status": "new"
+    },
+    "3746235b7098ddb6402a2640e2d882e1": {
+      "title": "Full Stack Software Engineer, Credit Cards and Banking",
+      "company": "Robinhood",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7170008?t=gh_src=&gh_jid=7170008",
+      "first_seen": "2025-12-23T14:51:21.934361",
+      "tier": 1,
+      "status": "new"
+    },
+    "83e01fe1a25eae3824ff0b2b6a785f57": {
+      "title": "Software Backend Engineer, Credit Cards & Banking Platform",
+      "company": "Robinhood",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7022255?t=gh_src=&gh_jid=7022255",
+      "first_seen": "2025-12-23T14:51:21.936413",
+      "tier": 1,
+      "status": "new"
+    },
+    "9103dc2a586fc265aa4bf3735de037db": {
+      "title": "Software Engineer, Backend",
+      "company": "Robinhood",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&gh_jid=7263592",
+      "first_seen": "2025-12-23T14:51:21.938346",
+      "tier": 1,
+      "status": "new"
+    },
+    "f1957386391ba69617f3d2800c2c0e47": {
+      "title": "Backend Engineer",
+      "company": "Chime",
+      "url": "https://boards.greenhouse.io/chime/jobs/8342770002?gh_jid=8342770002",
+      "first_seen": "2025-12-23T14:51:21.940346",
+      "tier": 1,
+      "status": "new"
+    },
+    "2da4bfec500f9b81a995bd4fd3c24761": {
+      "title": "Engineering Manager",
+      "company": "Chime",
+      "url": "https://boards.greenhouse.io/chime/jobs/8342852002?gh_jid=8342852002",
+      "first_seen": "2025-12-23T14:51:21.942374",
+      "tier": 1,
+      "status": "new"
+    },
+    "8870540319171f4e7dc9de5e6a7c4a3b": {
+      "title": "Engineering Manager, Spending",
+      "company": "Chime",
+      "url": "https://boards.greenhouse.io/chime/jobs/8322458002?gh_jid=8322458002",
+      "first_seen": "2025-12-23T14:51:21.944408",
+      "tier": 1,
+      "status": "new"
+    },
+    "d09a9b0afa2501f2c6b68553b77397c9": {
+      "title": "Analyst I, Full Stack",
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7560430003",
+      "first_seen": "2025-12-23T14:51:21.946399",
+      "tier": 1,
+      "status": "new"
+    },
+    "78ae05a7d10d97ed08d6a9ff5ef9ca7d": {
+      "title": "Business Development Associate",
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7516800003",
+      "first_seen": "2025-12-23T14:51:21.948383",
+      "tier": 1,
+      "status": "new"
+    },
+    "dab7f8d184857cc521cb192740b16d2a": {
+      "title": "Software Engineer",
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7560426003",
+      "first_seen": "2025-12-23T14:51:21.950700",
+      "tier": 1,
+      "status": "new"
+    },
+    "4db40b3392ee2ee2b6c583ef301a83ad": {
+      "title": "Software Engineer",
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7499741003",
+      "first_seen": "2025-12-23T14:51:21.952719",
+      "tier": 1,
+      "status": "new"
+    },
+    "0730c9a8144d3e73b39b24a586b84871": {
+      "title": "Software Engineer, Early Career",
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7485072003",
+      "first_seen": "2025-12-23T14:51:21.954744",
+      "tier": 1,
+      "status": "new"
+    },
+    "c9fc7f1f135b693b0aa51a4278af7b38": {
+      "title": "Software Engineer, Early Career",
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7485068003",
+      "first_seen": "2025-12-23T14:51:21.956721",
+      "tier": 1,
+      "status": "new"
+    },
+    "bd25c6dcfc1f68418268787ff0d91447": {
+      "title": "Associate Business Operations, Technology",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7536485003?gh_jid=7536485003",
+      "first_seen": "2025-12-23T14:51:21.958849",
+      "tier": 1,
+      "status": "new"
+    },
+    "92258e9d78f9fc7170616f73edbac4ce": {
+      "title": "Crypto Core Operations Analyst",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7519435003?gh_jid=7519435003",
+      "first_seen": "2025-12-23T14:51:21.960805",
+      "tier": 1,
+      "status": "new"
+    },
+    "b9e0de4b3244008cc2a22080be6baf27": {
+      "title": "Insurance Agent, Protect",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7537930003?gh_jid=7537930003",
+      "first_seen": "2025-12-23T14:51:21.962860",
+      "tier": 1,
+      "status": "new"
+    },
+    "d5072e7f3899608ca9e940c2ef5a3a56": {
+      "title": "Lifecycle Technical Project Manager",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7554096003?gh_jid=7554096003",
+      "first_seen": "2025-12-23T14:51:21.964797",
+      "tier": 1,
+      "status": "new"
+    },
+    "052088d2304c82fe6db7abe5cc93d340": {
+      "title": "Mortgage Loan Funding Specialist",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7519973003?gh_jid=7519973003",
+      "first_seen": "2025-12-23T14:51:21.966848",
+      "tier": 1,
+      "status": "new"
+    },
+    "d729275ba41f9ff10ae5478d77257c66": {
+      "title": "Mortgage Underwriter",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7540069003?gh_jid=7540069003",
+      "first_seen": "2025-12-23T14:51:21.968920",
+      "tier": 1,
+      "status": "new"
+    },
+    "f8bd5c6a1681d6b3783b4cb5753b342a": {
+      "title": "Origination Specialist (OMS)",
+      "company": "SoFi",
+      "url": "https://sofi.com/careers/job/7570549003?gh_jid=7570549003",
+      "first_seen": "2025-12-23T14:51:21.971005",
+      "tier": 1,
+      "status": "new"
+    },
+    "24cb0e346e0b69db495f7ce8e09eb067": {
+      "title": "Product Engineer",
+      "company": "Alchemy",
+      "url": "https://job-boards.greenhouse.io/alchemy/jobs/4033855005",
+      "first_seen": "2025-12-23T14:51:21.973083",
+      "tier": 2,
+      "status": "new"
+    },
+    "e0871f4226143144e181dd44c05e2318": {
+      "title": "Business Development Rep Associate",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/5018433008?gh_jid=5018433008",
+      "first_seen": "2025-12-23T14:51:21.975069",
+      "tier": 1,
+      "status": "new"
+    },
+    "cd03b344cf35572025238e3e602c421e": {
+      "title": "Business Development Rep Associate",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/5018425008?gh_jid=5018425008",
+      "first_seen": "2025-12-23T14:51:21.977155",
+      "tier": 1,
+      "status": "new"
+    },
+    "1893251240f2ad93314fb946603a89ab": {
+      "title": "Business Development Rep Associate",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/5018417008?gh_jid=5018417008",
+      "first_seen": "2025-12-23T14:51:21.979163",
+      "tier": 1,
+      "status": "new"
+    },
+    "f4afca45ba62a75a4a459b15f13dfb79": {
+      "title": "Investing Quality Management Specialist, Cash App",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/4969354008?gh_jid=4969354008",
+      "first_seen": "2025-12-23T14:51:21.981313",
+      "tier": 1,
+      "status": "new"
+    },
+    "aa3c57816ef2fc6cc2c804d413932fa2": {
+      "title": "Loan Servicing Specialist",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/5037179008?gh_jid=5037179008",
+      "first_seen": "2025-12-23T14:51:21.983521",
+      "tier": 1,
+      "status": "new"
+    },
+    "9afd81d306d3be428ec29199256c25b8": {
+      "title": "SMB Account Manager, Food and Beverage",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/4981553008?gh_jid=4981553008",
+      "first_seen": "2025-12-23T14:51:21.985700",
+      "tier": 1,
+      "status": "new"
+    },
+    "a7aeae652f1677fcfb7e6d920915b79b": {
+      "title": "SMB Account Manager, Food and Beverage",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/4983699008?gh_jid=4983699008",
+      "first_seen": "2025-12-23T14:51:21.987874",
+      "tier": 1,
+      "status": "new"
+    },
+    "acce5e66f57aa4d7c16d4873ed87b824": {
+      "title": "SMB ACCOUNT MANAGER, Retail",
+      "company": "Block (Square)",
+      "url": "http://block.xyz/careers/jobs/5012272008?gh_jid=5012272008",
+      "first_seen": "2025-12-23T14:51:21.990074",
+      "tier": 1,
+      "status": "new"
+    },
+    "42ad9189aa8687ecb3c5dbb010c965ba": {
+      "title": "Data Scientist, Inference (Martech)",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/7480854?gh_jid=7480854",
+      "first_seen": "2025-12-23T14:51:21.992459",
+      "tier": 1,
+      "status": "new"
+    },
+    "a3b8b817a69b1a284f09c8b36b393e9a": {
+      "title": "Capacity Planning Analyst - Customer Experience ",
+      "company": "Instacart",
+      "url": "https://instacart.careers/job/?gh_jid=7414687",
+      "first_seen": "2025-12-23T14:51:21.994542",
+      "tier": 1,
+      "status": "new"
+    },
+    "0a0f3a4882b323161e040aa65b8d3b28": {
+      "title": "Engineering Manager, Fulfillment Applications",
+      "company": "Instacart",
+      "url": "https://instacart.careers/job/?gh_jid=7329457",
+      "first_seen": "2025-12-23T14:51:21.996766",
+      "tier": 1,
+      "status": "new"
+    },
+    "11c33788f51ebe0b65a8d4f126519b74": {
+      "title": "People Technology Specialist",
+      "company": "Instacart",
+      "url": "https://instacart.careers/job/?gh_jid=7374108",
+      "first_seen": "2025-12-23T14:51:21.998964",
+      "tier": 1,
+      "status": "new"
+    },
+    "6bdc4bf88c72f5b04e2badd7b0b1ba94": {
+      "title": "Product Manager, Core Product",
+      "company": "Discord",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8288128002",
+      "first_seen": "2025-12-23T14:51:22.001184",
+      "tier": 1,
+      "status": "new"
+    },
+    "7b4de9f876830da3769f68951901abf1": {
+      "title": "Software Engineer, Consumer Revenue ",
+      "company": "Discord",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8324011002",
+      "first_seen": "2025-12-23T14:51:22.003511",
+      "tier": 1,
+      "status": "new"
+    },
+    "42dbb168168e431d227d549a53bee959": {
+      "title": "Software Engineer - Realtime Infrastructure",
+      "company": "Discord",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8328560002",
+      "first_seen": "2025-12-23T14:51:22.005706",
+      "tier": 1,
+      "status": "new"
+    },
+    "140c2d0a6c9b5dc5f57954e2907d632c": {
+      "title": "Trust & Safety Content Annotation Analyst",
+      "company": "Discord",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8300004002",
+      "first_seen": "2025-12-23T14:51:22.008372",
+      "tier": 1,
+      "status": "new"
+    },
+    "4d7be11f2dd7e2208a33b1834da7a5b2": {
+      "title": "Associate Solutions Consultant",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5633324004?gh_jid=5633324004",
+      "first_seen": "2025-12-23T14:51:22.010659",
+      "tier": 2,
+      "status": "new"
+    },
+    "c12cdabb7a65a6772ce79cd429aa7249": {
+      "title": "Community Support Specialist",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5734604004?gh_jid=5734604004",
+      "first_seen": "2025-12-23T14:51:22.012781",
+      "tier": 2,
+      "status": "new"
+    },
+    "a82aa690640538b75878a8c26aadb895": {
+      "title": "Data Engineer",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5220003004?gh_jid=5220003004",
+      "first_seen": "2025-12-23T14:51:22.014926",
+      "tier": 2,
+      "status": "new"
+    },
+    "0b0e86965221528a0d8eb9bcb41197dc": {
+      "title": "Designer Advocate - Figma Weave ",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5692764004?gh_jid=5692764004",
+      "first_seen": "2025-12-23T14:51:22.017333",
+      "tier": 2,
+      "status": "new"
+    },
+    "27963cef96f1017265c3c2f6e5df4a48": {
+      "title": "Early Career, Product Designer (2026)",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5616455004?gh_jid=5616455004",
+      "first_seen": "2025-12-23T14:51:22.019655",
+      "tier": 2,
+      "status": "new"
+    },
+    "a176d9f73e430793ed732a98313b6027": {
+      "title": "Early Career, Software Engineer (2026) ",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5616603004?gh_jid=5616603004",
+      "first_seen": "2025-12-23T14:51:22.022031",
+      "tier": 2,
+      "status": "new"
+    },
+    "ed7b943d9899f3cc767f18eb2e148076": {
+      "title": "Integration Engineer, AI",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5660560004?gh_jid=5660560004",
+      "first_seen": "2025-12-23T14:51:22.024542",
+      "tier": 2,
+      "status": "new"
+    },
+    "d0bd54691e79718607dd66f92fed6b7e": {
+      "title": "People Analyst",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5737300004?gh_jid=5737300004",
+      "first_seen": "2025-12-23T14:51:22.026915",
+      "tier": 2,
+      "status": "new"
+    },
+    "6f7da3d12cdf36c9bd90b9622706593f": {
+      "title": "Product Designer, AI Models",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5711913004?gh_jid=5711913004",
+      "first_seen": "2025-12-23T14:51:22.029304",
+      "tier": 2,
+      "status": "new"
+    },
+    "460cfe77e1c5092501af700c8d68194c": {
+      "title": "Software Engineer, Full Stack",
+      "company": "Figma",
+      "url": "https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004",
+      "first_seen": "2025-12-23T14:51:22.031674",
+      "tier": 2,
+      "status": "new"
+    },
+    "159d933322610d770214bc847a34a4a1": {
+      "title": "Product Designer - DeepSky",
+      "company": "Airtable",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8208453002",
+      "first_seen": "2025-12-23T14:51:22.034076",
+      "tier": 2,
+      "status": "new"
+    },
+    "259faea6089e609544256dac00e1d916": {
+      "title": "Renewals Associate",
+      "company": "Airtable",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8249560002",
+      "first_seen": "2025-12-23T14:51:22.036470",
+      "tier": 2,
+      "status": "new"
+    },
+    "2ef1d2f4a8d6a3b1de83b69b9b500a07": {
+      "title": "Risk Specialist, GRCP",
+      "company": "Airtable",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8318377002",
+      "first_seen": "2025-12-23T14:51:22.038878",
+      "tier": 2,
+      "status": "new"
+    },
+    "a92ab52fb09eda905936369e9abd5945": {
+      "title": "Software Engineer, Product Backend (2-8 YOE)",
+      "company": "Airtable",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/7845291002",
+      "first_seen": "2025-12-23T14:51:22.041286",
+      "tier": 2,
+      "status": "new"
+    },
+    "0479eaff78844c7bbef1aba13e93029e": {
+      "title": "Technical Support Specialist - East Coast",
+      "company": "Airtable",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8306093002",
+      "first_seen": "2025-12-23T14:51:22.043713",
+      "tier": 2,
+      "status": "new"
+    },
+    "e1bd28f4c9564ca910f49a45cd12e6e6": {
+      "title": "Backend Product Software Engineer, Financial Data",
+      "company": "Dropbox",
+      "url": "https://jobs.dropbox.com/listing/7482012?gh_jid=7482012",
+      "first_seen": "2025-12-23T14:51:22.046181",
+      "tier": 2,
+      "status": "new"
+    },
+    "571146215bf11a4997ed4350777ad5c4": {
+      "title": "Fullstack Product Software Engineer, Core Web Experience",
+      "company": "Dropbox",
+      "url": "https://jobs.dropbox.com/listing/7466612?gh_jid=7466612",
+      "first_seen": "2025-12-23T14:51:22.048648",
+      "tier": 2,
+      "status": "new"
+    },
+    "ba46e3f3eb932e4eeb8cec046dacf3be": {
+      "title": "Fullstack Product Software Engineer, DocSend",
+      "company": "Dropbox",
+      "url": "https://jobs.dropbox.com/listing/7344968?gh_jid=7344968",
+      "first_seen": "2025-12-23T14:51:22.051108",
+      "tier": 2,
+      "status": "new"
+    },
+    "00f3ecedf6fa2a08f9d8eb0251eb5b96": {
+      "title": "Infrastructure Software Engineer, Identity & Auth Platform",
+      "company": "Dropbox",
+      "url": "https://jobs.dropbox.com/listing/7409354?gh_jid=7409354",
+      "first_seen": "2025-12-23T14:51:22.053628",
+      "tier": 2,
+      "status": "new"
+    },
+    "c1dbee83c9848e75f8bca4723072273b": {
+      "title": "iOS Software Engineer, Mobile Infrastructure",
+      "company": "Dropbox",
+      "url": "https://jobs.dropbox.com/listing/7053876?gh_jid=7053876",
+      "first_seen": "2025-12-23T14:51:22.056065",
+      "tier": 2,
+      "status": "new"
+    },
+    "afc599a493c941d18a7a4cc14512fbe7": {
+      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7987849002",
+      "first_seen": "2025-12-23T14:51:22.058586",
+      "tier": 1,
+      "status": "new"
+    },
+    "ecc28f8553f510121244598b160ea100": {
+      "title": "Associate, Professional Services Operations",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8231134002",
+      "first_seen": "2025-12-23T14:51:22.061223",
+      "tier": 1,
+      "status": "new"
+    },
+    "6c074bbf9c94c836fddc22d52ae87648": {
+      "title": "Forward Deployed Engineer (FDE)",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8216469002",
+      "first_seen": "2025-12-23T14:51:22.063712",
+      "tier": 1,
+      "status": "new"
+    },
+    "c1c7d8f5e72c2ba9cd4d8ed4d4ae42e6": {
+      "title": "GenAI Research Scientist",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7011271002",
+      "first_seen": "2025-12-23T14:51:22.066313",
+      "tier": 1,
+      "status": "new"
+    },
+    "6ad01636d43624ab202261c73a2a10a7": {
+      "title": "Manager, Sales Development",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7971633002",
+      "first_seen": "2025-12-23T14:51:22.068924",
+      "tier": 1,
+      "status": "new"
+    },
+    "4e67effdad4a549b0b7c2bf955ae7a5d": {
+      "title": "Software Engineer - Delta Managed Tables PhD Candidates",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7850582002",
+      "first_seen": "2025-12-23T14:51:22.071316",
+      "tier": 1,
+      "status": "new"
+    },
+    "b8b5b03c634b83d935c1a38ebdadeec9": {
+      "title": "Software Engineer -  DLT PhD Candidates ",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7471089002",
+      "first_seen": "2025-12-23T14:51:22.073867",
+      "tier": 1,
+      "status": "new"
+    },
+    "81f0a89e12422c5479fec7e5b585780d": {
+      "title": "Software Engineer - Performance PhD Candidates",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7466498002",
+      "first_seen": "2025-12-23T14:51:22.076351",
+      "tier": 1,
+      "status": "new"
+    },
+    "2495043c327626c27ab5674fb3850725": {
+      "title": "Software Engineer -  Systems PhD Candidates",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6875433002",
+      "first_seen": "2025-12-23T14:51:22.078944",
+      "tier": 1,
+      "status": "new"
+    },
+    "e7c67ebd4e054dce67e387b374ebf543": {
+      "title": "Software Engineer - Systems PhD Candidates ",
+      "company": "Databricks",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7649293002",
+      "first_seen": "2025-12-23T14:51:22.081615",
+      "tier": 1,
+      "status": "new"
+    },
+    "35c3a25650893a959449fdd404697a93": {
+      "title": "AI Research Engineer \u2013 Datadog AI Research (DAIR)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7183013/?gh_jid=7183013",
+      "first_seen": "2025-12-23T14:51:22.084315",
+      "tier": 2,
+      "status": "new"
+    },
+    "6a88bf43ebe62af8cdff659dd6066d3f": {
+      "title": "AI Research Scientist \u2013 Datadog AI Research (DAIR)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/6572669/?gh_jid=6572669",
+      "first_seen": "2025-12-23T14:51:22.086937",
+      "tier": 2,
+      "status": "new"
+    },
+    "e799327ef79e4a52d0ff169c27317812": {
+      "title": "Associate Event Marketing Manager (New York)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7461785/?gh_jid=7461785",
+      "first_seen": "2025-12-23T14:51:22.089602",
+      "tier": 2,
+      "status": "new"
+    },
+    "d32959b5d7892b8f8e26d087fd8c3076": {
+      "title": "Commercial Sales Engineer (East)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7452669/?gh_jid=7452669",
+      "first_seen": "2025-12-23T14:51:22.092265",
+      "tier": 2,
+      "status": "new"
+    },
+    "b88eed4fc8371acae7a81975218dd4b4": {
+      "title": "Commercial Sales Engineer - NYC",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7491559/?gh_jid=7491559",
+      "first_seen": "2025-12-23T14:51:22.095068",
+      "tier": 2,
+      "status": "new"
+    },
+    "33597d2db30f5241ea45bcfb14bcecae": {
+      "title": "Customer Success Associate - Boston",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7172466/?gh_jid=7172466",
+      "first_seen": "2025-12-23T14:51:22.097712",
+      "tier": 2,
+      "status": "new"
+    },
+    "13d3f09ffcd1b6878a219f1742949802": {
+      "title": "Customer Success Associate - Boston (Portuguese-speaking)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7485441/?gh_jid=7485441",
+      "first_seen": "2025-12-23T14:51:22.100546",
+      "tier": 2,
+      "status": "new"
+    },
+    "199aba319b88e9ee6e7aae9afe6566e7": {
+      "title": "Data Analyst - GTM Strategy & Operations",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7374529/?gh_jid=7374529",
+      "first_seen": "2025-12-23T14:51:22.103244",
+      "tier": 2,
+      "status": "new"
+    },
+    "179c3f623ad14f67789301520b5284e6": {
+      "title": "Enablement Operations Data Analyst - NYC",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7378476/?gh_jid=7378476",
+      "first_seen": "2025-12-23T14:51:22.106049",
+      "tier": 2,
+      "status": "new"
+    },
+    "eb5a4e80e95ffff9aaa0c295f16ee594": {
+      "title": "Engineering Manager I - Cyber Threat Intelligence",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7181025/?gh_jid=7181025",
+      "first_seen": "2025-12-23T14:51:22.108738",
+      "tier": 2,
+      "status": "new"
+    },
+    "9135f152acf559a36cbf1b302cc79f9f": {
+      "title": "Enterprise Security Sales Specialist",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7132132/?gh_jid=7132132",
+      "first_seen": "2025-12-23T14:51:22.111593",
+      "tier": 2,
+      "status": "new"
+    },
+    "e80cd40b84d0a42eaf71ddc85f21b228": {
+      "title": "Enterprise Security Sales Specialist",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7129428/?gh_jid=7129428",
+      "first_seen": "2025-12-23T14:51:22.114170",
+      "tier": 2,
+      "status": "new"
+    },
+    "bb5d90ac9857a469c0d4aeb6b8db6f6a": {
+      "title": "Federal Support Engineering 2 - Denver",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7301380/?gh_jid=7301380",
+      "first_seen": "2025-12-23T14:51:22.116986",
+      "tier": 2,
+      "status": "new"
+    },
+    "d787c71f360e6972fcef3aa31e261366": {
+      "title": "Field Marketing Manager",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7393800/?gh_jid=7393800",
+      "first_seen": "2025-12-23T14:51:22.119739",
+      "tier": 2,
+      "status": "new"
+    },
+    "fd883892774a20a903c1c971fd4d8a7a": {
+      "title": "GTM Strategy and Operations Analyst - Channels & Alliances",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7450692/?gh_jid=7450692",
+      "first_seen": "2025-12-23T14:51:22.122420",
+      "tier": 2,
+      "status": "new"
+    },
+    "f8ced30be1261522ff519fd9a8e02361": {
+      "title": "Manager 1, Technical Escalations Engineering - US-East",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7380289/?gh_jid=7380289",
+      "first_seen": "2025-12-23T14:51:22.125170",
+      "tier": 2,
+      "status": "new"
+    },
+    "a81cac29b12a67f05449231ddaa43ff7": {
+      "title": "Manager 2, Premier Support Engineering - New York",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7173061/?gh_jid=7173061",
+      "first_seen": "2025-12-23T14:51:22.127930",
+      "tier": 2,
+      "status": "new"
+    },
+    "439b794ec30943ff621b91c59d6d76b3": {
+      "title": "Manager I, Engineering - APM SDK Capabilities",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7308962/?gh_jid=7308962",
+      "first_seen": "2025-12-23T14:51:22.130702",
+      "tier": 2,
+      "status": "new"
+    },
+    "a8f019c5c1c794cd69d4be94f2d939a8": {
+      "title": "Manager I, Engineering - Cloud SIEM - Security Data Enrichment",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7308805/?gh_jid=7308805",
+      "first_seen": "2025-12-23T14:51:22.133525",
+      "tier": 2,
+      "status": "new"
+    },
+    "6e7634e5dc0cf44ddd3cad0860c6e3ee": {
+      "title": "Manager I, Engineering - Infrastructure Remediation",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/6881788/?gh_jid=6881788",
+      "first_seen": "2025-12-23T14:51:22.136313",
+      "tier": 2,
+      "status": "new"
+    },
+    "053c7505c512d128a72332269221ebba": {
+      "title": "Manager I, Engineering - Language Platform",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7308940/?gh_jid=7308940",
+      "first_seen": "2025-12-23T14:51:22.139197",
+      "tier": 2,
+      "status": "new"
+    },
+    "ba83ca33e3679b7c19bb185343fee3a9": {
+      "title": "Manager II, Engineering - APM Root Cause Analysis (GenAI / LLM)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7205608/?gh_jid=7205608",
+      "first_seen": "2025-12-23T14:51:22.143132",
+      "tier": 2,
+      "status": "new"
+    },
+    "fa91c7a010902315594697e17b3145f4": {
+      "title": "Manager II, Engineering - Bits AI Security Analyst",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7482671/?gh_jid=7482671",
+      "first_seen": "2025-12-23T14:51:22.146010",
+      "tier": 2,
+      "status": "new"
+    },
+    "dd9f82ca68c56c1d5c341a0dd34aa1bd": {
+      "title": "Manager, Networking",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/6632056/?gh_jid=6632056",
+      "first_seen": "2025-12-23T14:51:22.148670",
+      "tier": 2,
+      "status": "new"
+    },
+    "6d19a866098e6049c608e6831770df63": {
+      "title": "Mid-Market Sales Engineer (Boston)",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7491922/?gh_jid=7491922",
+      "first_seen": "2025-12-23T14:51:22.151471",
+      "tier": 2,
+      "status": "new"
+    },
+    "b16d64d5728934f6d6f983efdcb0a4db": {
+      "title": "Product Manager II - Incident Management",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/6970128/?gh_jid=6970128",
+      "first_seen": "2025-12-23T14:51:22.154370",
+      "tier": 2,
+      "status": "new"
+    },
+    "9a2e3e45bfb19dd7425d1f8fee17a865": {
+      "title": "Recruiter II, Business Recruiting",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7345022/?gh_jid=7345022",
+      "first_seen": "2025-12-23T14:51:22.157226",
+      "tier": 2,
+      "status": "new"
+    },
+    "d8f8b87183dfc95584ffad4c24cbf077": {
+      "title": "SaaS Administrator 2 - IT Operations",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7060257/?gh_jid=7060257",
+      "first_seen": "2025-12-23T14:51:22.159946",
+      "tier": 2,
+      "status": "new"
+    },
+    "c693ad34c30d1db1d3b461ac5d526355": {
+      "title": "Sales Engineer (Customer Success) - Boston",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7491955/?gh_jid=7491955",
+      "first_seen": "2025-12-23T14:51:22.162997",
+      "tier": 2,
+      "status": "new"
+    },
+    "d300f0126e65b089f13e2247caa63f96": {
+      "title": "Sales Engineer (Customer Success) - Denver",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7215574/?gh_jid=7215574",
+      "first_seen": "2025-12-23T14:51:22.165858",
+      "tier": 2,
+      "status": "new"
+    },
+    "cdca0554e0e7acd8973ce9eb82383ac8": {
+      "title": "Sales Engineer (Customer Success - Spanish Speaking) - Boston",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7358137/?gh_jid=7358137",
+      "first_seen": "2025-12-23T14:51:22.168737",
+      "tier": 2,
+      "status": "new"
+    },
+    "f34c806601520deb84b368698f8a7901": {
+      "title": "Security Engineer II - Cloud Security",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7205511/?gh_jid=7205511",
+      "first_seen": "2025-12-23T14:51:22.171622",
+      "tier": 2,
+      "status": "new"
+    },
+    "6093f4236591500785e422de219907b9": {
+      "title": "Security Engineer II, Risk Engineering",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7373580/?gh_jid=7373580",
+      "first_seen": "2025-12-23T14:51:22.174647",
+      "tier": 2,
+      "status": "new"
+    },
+    "2f9e854cf65d703a2debf6e67c6862bf": {
+      "title": "Security Sales Engineer - US East",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7362587/?gh_jid=7362587",
+      "first_seen": "2025-12-23T14:51:22.177598",
+      "tier": 2,
+      "status": "new"
+    },
+    "cdf72b42904118f596a11916051837c5": {
+      "title": "Cloud Operations Engineer",
+      "company": "MongoDB",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7368246",
+      "first_seen": "2025-12-23T14:51:22.180418",
+      "tier": 2,
+      "status": "new"
+    },
+    "2f3efc6c6b88a598a9d8ab6de76bc917": {
+      "title": "Consulting Engineer",
+      "company": "MongoDB",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7405852",
+      "first_seen": "2025-12-23T14:51:22.183244",
+      "tier": 2,
+      "status": "new"
+    },
+    "5675cb3286873419e0592662b1302ca5": {
+      "title": "Software Engineer 3, Search Systems Replication & Routing",
+      "company": "MongoDB",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7235322",
+      "first_seen": "2025-12-23T14:51:22.186261",
+      "tier": 2,
+      "status": "new"
+    },
+    "009da1a586d0a01e31c0d79c95790452": {
+      "title": "Platform - Site Reliability Engineer II (Networking)",
+      "company": "Elastic",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=6950250&gh_jid=6950250",
+      "first_seen": "2025-12-23T14:51:22.189248",
+      "tier": 2,
+      "status": "new"
+    },
+    "d2d3f206eb3c148d29846d568eceec17": {
+      "title": "Software Engineer- L2",
+      "company": "Twilio",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7406218",
+      "first_seen": "2025-12-23T14:51:22.192232",
+      "tier": 2,
+      "status": "new"
+    },
+    "301b5a4a8c2f472f33ce6a4718fa7859": {
+      "title": "Engineering Manager - Data Foundations ",
+      "company": "Okta",
+      "url": "https://www.okta.com/company/careers/opportunity/7302392?gh_jid=7302392",
+      "first_seen": "2025-12-23T14:51:22.195259",
+      "tier": 2,
+      "status": "new"
+    },
+    "662261afd78b7f99629630e6fdb50157": {
+      "title": "Manager, Sales Development (West)",
+      "company": "Okta",
+      "url": "https://www.okta.com/company/careers/opportunity/7440411?gh_jid=7440411",
+      "first_seen": "2025-12-23T14:51:22.198641",
+      "tier": 2,
+      "status": "new"
+    },
+    "3d014aedb2cf5aeff11c438b6c59a909": {
+      "title": "Regional Marketing Specialist",
+      "company": "Okta",
+      "url": "https://www.okta.com/company/careers/opportunity/7472847?gh_jid=7472847",
+      "first_seen": "2025-12-23T14:51:22.201746",
+      "tier": 2,
+      "status": "new"
+    },
+    "952ad3b0156a1c12fcfb38818f82bb0c": {
+      "title": "Can't find a role for you? Submit a general application.",
+      "company": "Fivetran",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=4289730003",
+      "first_seen": "2025-12-23T14:51:22.204871",
+      "tier": 3,
+      "status": "new"
+    },
+    "2f7d74880f0a5d9d3e0421856441b335": {
+      "title": "Manager, Enterprise Business Development",
+      "company": "Fivetran",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7551235003",
+      "first_seen": "2025-12-23T14:51:22.208000",
+      "tier": 3,
+      "status": "new"
+    },
+    "fdc8108bb2af8901a45e5bad774dba6b": {
+      "title": "Product Operations Manager",
+      "company": "Fivetran",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7507189003",
+      "first_seen": "2025-12-23T14:51:22.210891",
+      "tier": 3,
+      "status": "new"
+    },
+    "a030f91076016fff9be0bbd557f97121": {
+      "title": "Software Engineer",
+      "company": "Fivetran",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7491691003",
+      "first_seen": "2025-12-23T14:51:22.213930",
+      "tier": 3,
+      "status": "new"
+    },
+    "e4fc711e7860554e1514b8bb24e28f50": {
+      "title": "Software Engineer II",
+      "company": "Fivetran",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7545606003",
+      "first_seen": "2025-12-23T14:51:22.217027",
+      "tier": 3,
+      "status": "new"
+    },
+    "b112bcb93f93b290657ecefc1fce9de7": {
+      "title": "Software Engineer II, Databases",
+      "company": "Fivetran",
+      "url": "https://www.fivetran.com/careers/job?gh_jid=7531927003",
+      "first_seen": "2025-12-23T14:51:22.220070",
+      "tier": 3,
+      "status": "new"
+    },
+    "8585771c2d230383cbcf40b6d4b16e02": {
+      "title": "Data Analyst, Performance & Strategic Analytics",
+      "company": "Squarespace",
+      "url": "http://www.squarespace.com/about/careers?gh_jid=7269032",
+      "first_seen": "2025-12-23T14:51:22.223176",
+      "tier": 1,
+      "status": "new"
+    },
+    "565ea6e9bdd71504bb83794f90be72cd": {
+      "title": "Employment & Litigation Counsel",
+      "company": "Squarespace",
+      "url": "http://www.squarespace.com/about/careers?gh_jid=7392761",
+      "first_seen": "2025-12-23T14:51:22.226230",
+      "tier": 1,
+      "status": "new"
+    },
+    "ed530788bc5ba9b118df9228b881322b": {
+      "title": "Media & Acquisition Strategist, Podcast",
+      "company": "Squarespace",
+      "url": "http://www.squarespace.com/about/careers?gh_jid=7452777",
+      "first_seen": "2025-12-23T14:51:22.229436",
+      "tier": 1,
+      "status": "new"
+    },
+    "5c855546f356862d03c0286fd0b9f0c5": {
+      "title": "Media Strategist, Programmatic",
+      "company": "Squarespace",
+      "url": "http://www.squarespace.com/about/careers?gh_jid=7371649",
+      "first_seen": "2025-12-23T14:51:22.232561",
+      "tier": 1,
+      "status": "new"
+    },
+    "ef4fcfc1898ea542a0e6bcef3e05c7f8": {
+      "title": "Business Value Consultant",
+      "company": "Webflow",
+      "url": "https://job-boards.greenhouse.io/webflow/jobs/7470985",
+      "first_seen": "2025-12-23T14:51:22.235677",
+      "tier": 3,
+      "status": "new"
+    },
+    "4e84b51c27c600c355775b5376aefa27": {
+      "title": "Compliance Automation Engineer",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5661570004",
+      "first_seen": "2025-12-23T14:51:22.238842",
+      "tier": 3,
+      "status": "new"
+    },
+    "6b76f2198c60a350c79f7da835aad120": {
+      "title": " IT Infrastructure Engineer ",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5623421004",
+      "first_seen": "2025-12-23T14:51:22.241992",
+      "tier": 3,
+      "status": "new"
+    },
+    "3a74772bf61a1972c4994eda66df3437": {
+      "title": "Recruiting Coordinator (Contract)",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5686511004",
+      "first_seen": "2025-12-23T14:51:22.245174",
+      "tier": 3,
+      "status": "new"
+    },
+    "1315aef47741709138831da07235a692": {
+      "title": "Sales Engineer",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5347669004",
+      "first_seen": "2025-12-23T14:51:22.248408",
+      "tier": 3,
+      "status": "new"
+    },
+    "804bac368a3f4fcc017113f1d853db97": {
+      "title": "Software Engineer (Backend Infrastructure), v0",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5704297004",
+      "first_seen": "2025-12-23T14:51:22.251604",
+      "tier": 3,
+      "status": "new"
+    },
+    "0cb1219a7ad024d39cd4c8b1e365c984": {
+      "title": "Software Engineer, Support Platform",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5611527004",
+      "first_seen": "2025-12-23T14:51:22.254804",
+      "tier": 3,
+      "status": "new"
+    },
+    "44266b5eb39f5f1509a1f2e3ca530cfd": {
+      "title": "v0 Marketer: Content & Vibes",
+      "company": "Vercel",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5622495004",
+      "first_seen": "2025-12-23T14:51:22.258033",
+      "tier": 3,
+      "status": "new"
+    },
+    "7c60c9987d2a8d96403920ffa204c63b": {
+      "title": "Applied AI Scientist, Small Language Model and AI Training",
+      "company": "Postman",
+      "url": "https://job-boards.greenhouse.io/postman/jobs/7452539003",
+      "first_seen": "2025-12-23T14:51:22.261251",
+      "tier": 3,
+      "status": "new"
+    },
+    "f9bc65b2ac968d3d4486d50b330033db": {
+      "title": "Software Engineer II, Capabilities",
+      "company": "Amplitude",
+      "url": "https://job-boards.greenhouse.io/amplitude/jobs/8344493002",
+      "first_seen": "2025-12-23T14:51:22.264455",
+      "tier": 3,
+      "status": "new"
+    },
+    "12e99b8a500fa0a25dd08842ac5e8cd5": {
+      "title": "Software Engineer II, Web",
+      "company": "Amplitude",
+      "url": "https://job-boards.greenhouse.io/amplitude/jobs/8223035002",
+      "first_seen": "2025-12-23T14:51:22.267670",
+      "tier": 3,
+      "status": "new"
+    },
+    "ed001d16bf80a8b201b710de043dda4c": {
+      "title": "Software Engineer I, Query",
+      "company": "Amplitude",
+      "url": "https://job-boards.greenhouse.io/amplitude/jobs/8224986002",
+      "first_seen": "2025-12-23T14:51:22.271053",
+      "tier": 3,
+      "status": "new"
+    },
+    "5708519e0fa0bb59e9da0c3cbb835bb7": {
+      "title": "Engineering Manager",
+      "company": "Wealthfront",
+      "url": "https://jobs.lever.co/wealthfront/5cead124-1663-4ae2-9c28-708e1dee1ad7",
+      "first_seen": "2025-12-23T14:51:22.274327",
+      "tier": 2,
+      "status": "new"
+    },
+    "baa97e7fb6cdee4862990f54b96c11cd": {
+      "title": "Loan Originator",
+      "company": "Wealthfront",
+      "url": "https://jobs.lever.co/wealthfront/bc9ef3ab-00da-47a9-a7f8-fbdcbd9d8c28",
+      "first_seen": "2025-12-23T14:51:22.277565",
+      "tier": 2,
+      "status": "new"
+    },
+    "9e7feda2959055ebae87a41abc0c669a": {
+      "title": "Loan Processor",
+      "company": "Wealthfront",
+      "url": "https://jobs.lever.co/wealthfront/7b2730f5-dd6e-4458-b42f-c8d8937c0e25",
+      "first_seen": "2025-12-23T14:51:22.280893",
+      "tier": 2,
+      "status": "new"
+    }
+  },
+  "last_updated": "2025-12-23T14:51:22.280901"
+}
