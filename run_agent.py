@@ -1,125 +1,143 @@
 #!/usr/bin/env python3
-# run_agent.py - Run job scraper locally
+"""
+Job Search Agent - Main Runner
+- Tracks when jobs were first seen (date_added)
+- Marks jobs as NEW if added in last 48 hours
+- Removes jobs that are no longer posted
+"""
 
-import sys
 import json
 import os
-from datetime import datetime
-from scrape_greenhouse import scrape_all_greenhouse, GREENHOUSE_COMPANIES
-from scrape_lever import scrape_all_lever, LEVER_COMPANIES
-from scrape_ashby import scrape_all_ashby, ASHBY_COMPANIES
-from database import filter_new_jobs
-from notifier import send_job_alert
+from datetime import datetime, timedelta
 
-JOBS_FILE = 'all_jobs.json'
+from scrape_greenhouse import scrape_all_greenhouse
+from scrape_lever import scrape_all_lever
 
-def get_role_priority(title):
-    title_lower = title.lower()
-    if any(kw in title_lower for kw in ['product manager', 'product management', 'apm']):
-        return 1
-    elif any(kw in title_lower for kw in ['program manager', 'project manager', 'tpm']):
-        return 2
-    elif any(kw in title_lower for kw in ['data analyst', 'analytics', 'data scientist']):
-        return 3
-    elif any(kw in title_lower for kw in ['operations', 'strategy', 'gtm', 'marketing']):
-        return 4
-    elif any(kw in title_lower for kw in ['research', 'ai safety', 'policy']):
-        return 5
-    return 6
+try:
+    from scrape_ashby import scrape_all_ashby
+    HAS_ASHBY = True
+except ImportError:
+    HAS_ASHBY = False
 
-def get_role_category(title):
-    title_lower = title.lower()
-    if any(kw in title_lower for kw in ['product manager', 'product management', 'apm']):
-        return "🎯 Product Manager"
-    if any(kw in title_lower for kw in ['program manager', 'project manager', 'tpm']):
-        return "📋 Program/Project Manager"
-    if any(kw in title_lower for kw in ['data analyst', 'analytics', 'data scientist']):
-        return "📊 Data/Analytics"
-    if any(kw in title_lower for kw in ['operations', 'strategy', 'gtm', 'marketing']):
-        return "📈 Ops/GTM/Marketing"
-    if any(kw in title_lower for kw in ['research', 'ai safety', 'policy']):
-        return "🔬 Research/AI Safety"
-    if any(kw in title_lower for kw in ['solutions engineer', 'sales engineer']):
-        return "🔧 Solutions/Sales Eng"
-    if any(kw in title_lower for kw in ['software engineer', 'backend', 'frontend']):
-        return "💻 Software Engineering"
-    if any(kw in title_lower for kw in ['engineer', 'infrastructure', 'sre']):
-        return "⚙️ Other Engineering"
-    if any(kw in title_lower for kw in ['recruiter', 'hr ', 'talent']):
-        return "👥 HR/Recruiting"
-    return "📁 Other"
-
-def is_us_location(location):
-    if not location:
-        return False
-    location_lower = location.lower().strip()
-    non_us = ['spain', 'poland', 'uk', 'canada', 'germany', 'france', 'india', 
-              'singapore', 'japan', 'australia', 'london', 'toronto', 'berlin',
-              'emea', 'apac', 'latam']
-    for non in non_us:
-        if non in location_lower:
-            return False
-    us_indicators = ['united states', 'usa', ', us', 'remote', 'california', 
-                     'new york', 'texas', 'san francisco', 'seattle', 'boston',
-                     'austin', 'denver', 'chicago', 'los angeles', 'bay area']
-    for indicator in us_indicators:
-        if indicator in location_lower:
-            return True
-    return False
+JOBS_FILE = "all_jobs.json"
 
 def load_existing_jobs():
     if os.path.exists(JOBS_FILE):
-        try:
-            with open(JOBS_FILE, 'r') as f:
-                return json.load(f)
-        except:
-            return []
+        with open(JOBS_FILE, 'r') as f:
+            return json.load(f)
     return []
 
-def save_all_jobs(jobs):
+def save_jobs(jobs):
     with open(JOBS_FILE, 'w') as f:
-        json.dump(jobs, f, indent=2, default=str)
+        json.dump(jobs, f, indent=2)
 
-def run_and_notify(send_email=True):
+def create_job_key(job):
+    return f"{job.get('company', '')}|{job.get('title', '')}|{job.get('job_id', '')}"
+
+def merge_jobs(existing_jobs, new_jobs):
+    now = datetime.now()
+    cutoff = now - timedelta(hours=48)
+    
+    existing_lookup = {}
+    for job in existing_jobs:
+        key = create_job_key(job)
+        existing_lookup[key] = job
+    
+    new_lookup = {}
+    for job in new_jobs:
+        key = create_job_key(job)
+        new_lookup[key] = job
+    
+    merged = []
+    new_count = 0
+    kept_count = 0
+    removed_count = 0
+    
+    for key, job in new_lookup.items():
+        if key in existing_lookup:
+            old_job = existing_lookup[key]
+            job['date_added'] = old_job.get('date_added', now.isoformat())
+            job['status'] = old_job.get('status', 'new')
+            kept_count += 1
+        else:
+            job['date_added'] = now.isoformat()
+            job['status'] = 'new'
+            new_count += 1
+        
+        try:
+            added_date = datetime.fromisoformat(job['date_added'])
+            job['is_new'] = added_date > cutoff
+        except:
+            job['is_new'] = True
+        
+        merged.append(job)
+    
+    for key in existing_lookup:
+        if key not in new_lookup:
+            removed_count += 1
+    
+    print(f"   📊 Jobs: {len(merged)} active ({new_count} new, {kept_count} existing, {removed_count} removed)")
+    
+    return merged, new_count
+
+def run_scraper():
     print(f"\n{'='*60}")
-    print(f"🤖 Job Agent - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"🔍 JOB SCRAPER - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*60}\n")
     
-    all_jobs = []
-    
-    print(f"🌱 Greenhouse ({len(GREENHOUSE_COMPANIES)} companies)...")
-    all_jobs.extend(scrape_all_greenhouse(verbose=False))
-    
-    print(f"🎯 Lever ({len(LEVER_COMPANIES)} companies)...")
-    all_jobs.extend(scrape_all_lever(verbose=False))
-    
-    print(f"🔷 Ashby ({len(ASHBY_COMPANIES)} companies)...")
-    all_jobs.extend(scrape_all_ashby(verbose=False))
-    
-    entry_jobs = [j for j in all_jobs if j.get('relevant')]
-    us_jobs = [j for j in entry_jobs if is_us_location(j.get('location', ''))]
-    
     existing_jobs = load_existing_jobs()
-    existing_urls = {j.get('url'): j for j in existing_jobs}
+    print(f"📂 Loaded {len(existing_jobs)} existing jobs\n")
     
-    new_jobs = []
-    for job in us_jobs:
-        if job.get('url') not in existing_urls:
-            job['status'] = 'New'
-            job['added_date'] = datetime.now().isoformat()
-            job['role_category'] = get_role_category(job['title'])
-            new_jobs.append(job)
+    all_new_jobs = []
     
-    all_saved_jobs = existing_jobs + new_jobs
-    save_all_jobs(all_saved_jobs)
+    print("🌱 Scraping Greenhouse...")
+    try:
+        greenhouse_jobs = scrape_all_greenhouse(verbose=True)
+        all_new_jobs.extend(greenhouse_jobs)
+        print(f"   Total: {len(greenhouse_jobs)} jobs\n")
+    except Exception as e:
+        print(f"   ❌ Error: {e}\n")
     
-    print(f"\n📊 Results: {len(all_jobs)} scraped → {len(entry_jobs)} entry-level → {len(us_jobs)} US → {len(new_jobs)} NEW")
+    print("🎯 Scraping Lever...")
+    try:
+        lever_jobs = scrape_all_lever(verbose=True)
+        all_new_jobs.extend(lever_jobs)
+        print(f"   Total: {len(lever_jobs)} jobs\n")
+    except Exception as e:
+        print(f"   ❌ Error: {e}\n")
     
-    if new_jobs and send_email:
-        new_jobs.sort(key=lambda j: (j.get('tier', 3), get_role_priority(j['title'])))
-        send_job_alert(new_jobs, [])
+    if HAS_ASHBY:
+        print("🏢 Scraping Ashby...")
+        try:
+            ashby_jobs = scrape_all_ashby(verbose=True)
+            all_new_jobs.extend(ashby_jobs)
+            print(f"   Total: {len(ashby_jobs)} jobs\n")
+        except Exception as e:
+            print(f"   ❌ Error: {e}\n")
     
-    print(f"✅ Done! Total saved: {len(all_saved_jobs)}")
+    relevant_jobs = [j for j in all_new_jobs if j.get('relevant', False)]
+    print(f"📋 Relevant (entry-level) jobs: {len(relevant_jobs)}")
+    
+    print("\n🔄 Merging with existing jobs...")
+    merged_jobs, new_count = merge_jobs(existing_jobs, relevant_jobs)
+    
+    merged_jobs.sort(key=lambda j: (
+        j.get('tier', 3),
+        not j.get('is_new', False),
+        j.get('company', '')
+    ))
+    
+    save_jobs(merged_jobs)
+    print(f"\n✅ Saved {len(merged_jobs)} jobs to {JOBS_FILE}")
+    
+    new_jobs = [j for j in merged_jobs if j.get('is_new', False)]
+    if new_jobs:
+        print(f"\n🆕 NEW JOBS (last 48 hours): {len(new_jobs)}")
+        for job in new_jobs[:10]:
+            print(f"   • {job['title'][:45]} @ {job['company']}")
+    
+    return merged_jobs, new_count
 
-if __name__ == '__main__':
-    run_and_notify(send_email='--no-email' not in sys.argv)
+if __name__ == "__main__":
+    jobs, new_count = run_scraper()
+    print(f"\n🎉 Done! {new_count} new jobs found.")
